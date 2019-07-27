@@ -1,0 +1,11 @@
+{
+  "name": "simple-mocha",
+  "version": "1.0.0",
+  "description": "a simple mocha for understanding the mechanism of mocha",
+  "main": "",
+  "scripts": {
+    "test": "node mocha"
+  },
+  "author": "hankle",
+  "license": "ISC"
+}

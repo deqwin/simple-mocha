@@ -13,6 +13,7 @@ class Mocha {
       title: '',
       parent: null
     });
+
     // 使用bdd测试风格，将API挂载到global对象上
     const ui = 'bdd';
     interfaces[ui](global, this.rootSuite);

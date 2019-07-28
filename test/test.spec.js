@@ -17,7 +17,7 @@ describe('Array', function () {
   })
 
   describe('#every()', function () {
-    it('should return true when every one is satisfied', function () {
+    it('should return true when all items are satisfied', function () {
       assert.equal(true, [1, 2, 3].every(item => !isNaN(item)))
     })
   })
